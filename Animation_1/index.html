@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="js-modal-layer" class="layer layer--modal"></div>
+  <div id="js-modal-hide-layer" class="layer layer--modal-hide"></div>
+
+  <div class="scene" id="js-scene"></div>
+
+  <script id="js-modal-template" type="text/template">
+    <div class="modal__text" id="js-modal-text">
+        The web + motion <br /> is
+      </div>
+      <div class="modal__buttons">
+        <div class="modal__button modal__button--love" id="js-button-love">love</div>
+        <div class="modal__button modal__button--hate" id="js-button-hate">hate</div>
+      </div>
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
